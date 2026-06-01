@@ -26,3 +26,9 @@ customers.push({
 
 // Removing the first customer
 customers.shift();
+
+// Updating a customer's email
+customers[0].email = "poppylee@gmail.com";
+
+// Adding a new purchase
+customers[2].purchases.push("Tangerines");
