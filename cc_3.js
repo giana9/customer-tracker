@@ -32,3 +32,11 @@ customers[0].email = "poppylee@gmail.com";
 
 // Adding a new purchase
 customers[2].purchases.push("Tangerines");
+
+// Display customer info
+customers.forEach((customer) => {
+    console.log(`Name: ${customer.name}`);
+    console.log(`Email: ${customer.email}`);
+    console.log(`Total Purchases: ${customer.purchases.length}`);
+    console.log("------------------------------");
+});
